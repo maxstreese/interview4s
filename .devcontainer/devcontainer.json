@@ -1,0 +1,31 @@
+{
+  "image": "devcontainer4s:latest",
+  "extensions": [
+    "EditorConfig.EditorConfig",
+    "scalameta.metals",
+    "vscjava.vscode-java-pack"
+  ],
+  "settings": {
+    "java.configuration.runtimes": [
+      {
+        "name": "JavaSE-1.8",
+        "path": "/root/.jdk/8",
+        "default": false
+      },
+      {
+        "name": "JavaSE-11",
+        "path": "/root/.jdk/11",
+        "default": true
+      }
+    ],
+    "java.home": "/root/.jdk/11",
+    "metals.ammoniteJvmProperties": [
+      "-Xmx1G"
+    ],
+    "metals.serverProperties": [
+      "-Xmx1G"
+    ],
+    "metals.bloopSbtAlreadyInstalled": true,
+    "metals.javaHome": "/root/.jdk/jdk11"
+  }
+}

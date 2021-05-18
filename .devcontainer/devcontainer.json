@@ -1,5 +1,5 @@
 {
-  "image": "devcontainer4s:latest",
+  "image": "ghcr.io/maxstreese/devcontainer4s:latest",
   "extensions": [
     "EditorConfig.EditorConfig",
     "MS-vsliveshare.vsliveshare-pack",

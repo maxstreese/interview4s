@@ -3,6 +3,7 @@
   "extensions": [
     "EditorConfig.EditorConfig",
     "MS-vsliveshare.vsliveshare-pack",
+    "scala-lang.scala",
     "scalameta.metals",
     "vscjava.vscode-java-pack"
   ],

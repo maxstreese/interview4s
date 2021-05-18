@@ -9,11 +9,6 @@
   "settings": {
     "java.configuration.runtimes": [
       {
-        "name": "JavaSE-1.8",
-        "path": "/root/.jdk/8",
-        "default": false
-      },
-      {
         "name": "JavaSE-11",
         "path": "/root/.jdk/11",
         "default": true

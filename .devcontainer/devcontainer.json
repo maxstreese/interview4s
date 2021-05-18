@@ -2,6 +2,7 @@
   "image": "devcontainer4s:latest",
   "extensions": [
     "EditorConfig.EditorConfig",
+    "MS-vsliveshare.vsliveshare-pack",
     "scalameta.metals",
     "vscjava.vscode-java-pack"
   ],
@@ -26,6 +27,9 @@
       "-Xmx1G"
     ],
     "metals.bloopSbtAlreadyInstalled": true,
-    "metals.javaHome": "/root/.jdk/jdk11"
+    "metals.javaHome": "/root/.jdk/11",
+    "files.watcherExclude": {
+        "**/target": true
+    }
   }
 }
